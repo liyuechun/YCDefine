@@ -1,6 +1,6 @@
 # YCDefine
 ##iOS项目中常用到的宏整理，使用方便快捷。
-<h6>
+<body>
 /** 主屏幕的高度 */
 #define YC_M_SCREEN_H [[UIScreen mainScreen] bounds].size.height
 /** 主屏幕的宽度 */
@@ -118,4 +118,4 @@ NSLog(@"32");
 #define YC_IMAGE_NAMED(NAME)       [UIImage imageNamed:NAME]
 
 
-</h6>
+</body>
