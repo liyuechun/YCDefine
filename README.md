@@ -1,19 +1,11 @@
 
-//===============================================================
-//			   ___                   __
-//			  / (_)_ ____ _____ ____/ /  __ _____
-//			 / / / // / // / -_) __/ _ \/ // / _ \
-//			/_/_/\_, /\_,_/\__/\__/_//_/\_,_/_//_/
-//			    /___/
-//
-//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝= = ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 
 ##iOS项目中常用到的宏整理，使用方便快捷。
 
 
 <body>
 /** 主屏幕的高度 */
-####define YC_M_SCREEN_H [[UIScreen mainScreen] bounds].size.height
+######define YC_M_SCREEN_H [[UIScreen mainScreen] bounds].size.height
 /** 主屏幕的宽度 */
 #define YC_M_SCREEN_W  [[UIScreen mainScreen] bounds].size.width
 
